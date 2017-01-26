@@ -1,0 +1,41 @@
+{
+  "id": "f3a2b200-e53e-4249-8257-af2883a9ec8d",
+  "timestamp": "2017-01-26T18:51:38.461Z",
+  "result": {
+    "source": "agent",
+    "resolvedQuery": "how are you?",
+    "action": "",
+    "actionIncomplete": false,
+    "parameters": {},
+    "contexts": [],
+    "metadata": {
+      "intentId": "18607f9d-0de6-4baa-8478-00271581e98f",
+      "webhookUsed": "false",
+      "webhookForSlotFillingUsed": "false",
+      "intentName": "feelings"
+    },
+    "fulfillment": {
+      "speech": "I am sad",
+      "messages": [
+        {
+          "type": 0,
+          "speech": "I am ok"
+        },
+        {
+          "imageUrl": "https://i.ytimg.com/vi/tntOCGkgt98/maxresdefault.jpg",
+          "type": 3
+        },
+        {
+          "imageUrl": "http://www.rd.com/wp-content/uploads/sites/2/2016/04/01-cat-wants-to-tell-you-laptop.jpg",
+          "type": 3
+        }
+      ]
+    },
+    "score": 1
+  },
+  "status": {
+    "code": 200,
+    "errorType": "success"
+  },
+  "sessionId": "966ec5a5-4426-4588-a6f4-9e7cbcd5ec11"
+}
